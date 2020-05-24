@@ -33,6 +33,12 @@
             </a>
                 
             </li>
+            <li class="header light mt-3"><strong>Segera Hadir</strong></li>
+            <li class="treeview"><a href="#">
+                <i class="icon icon-pencil green-text s-18"></i> <span>Test Online</span> 
+            </a>
+                
+            </li>
            
                 @php
                     $siswa =App\Daftar::all()->where('status','==','proses')->count();

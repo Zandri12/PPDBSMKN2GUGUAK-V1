@@ -33,7 +33,7 @@ Route::get('/blocked', function () {
     
     return view('blocked');
 });
-
+Route::get('/log','QrLoginController@index');
 
 Auth::routes();
 
@@ -110,6 +110,8 @@ Route::post('/change-password', 'ChangePasswordController@store')->name('change.
 //=========== Pendaftaran Siswa=====
 //Data Pendaftaran
 Route::get('/siswa/data', 'DaftarController@data_daftar')->name('dataprofile');
+Route::get('/siswa/data/{id}/delete','DaftarController@destroy');
+
 Route::get('/siswa/cari/nama','HomeController@nama');
 Route::get('/siswa/cari/nama/akhir','HomeController@result');
 //formulir CRUD

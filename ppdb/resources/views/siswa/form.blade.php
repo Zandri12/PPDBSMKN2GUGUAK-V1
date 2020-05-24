@@ -53,9 +53,9 @@
 					<div id="social">
 						<ul>
 							<li><a href="#0"><i class="icon-facebook"></i></a></li>
-							<li><a href="#0"><i class="icon-twitter"></i></a></li>
 							<li><a href="#0"><i class="icon-google"></i></a></li>
-							<li><a href="#0"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#0"><i class="icon-instagram"></i></a></li>
+							
 						</ul>
 					</div>
 					
@@ -335,8 +335,10 @@
 					<ul>
                         <li><i>~ Pendaftaran akan dibuka pada waktu yang telah ditentukan pihak  </i></li>
                         <li>  sekolah</li>
-                        <li><i>~ Ketika melakukan finalisasi data tidak bisa diubah kembali </i></li>
-                        <li><i>~ Hasil pendaftaran dapat dilihat dilihat di <strong>menu utama</strong> </i></li>
+                        <li><i>~ Ketika melakukan finalisasi, pastikan data tersebut telah diisi dengan benar </i></li>
+                        <li><i>~ Kode pendaftaran dapat dilihat dengan menggunakan kode QR</i></li>
+                        <li><i>~ Setelah Saudara dinyatakan <strong>Diterima</strong>cetak bukti tersebut dan bawa ketika melakukan daftar ulang</i></li>
+                        <li><i>~ Hasil pendaftaran dapat dilihat dilihat<strong> menu utama</strong> </i></li>
                     </ul>
                     <br>
                     <hr>

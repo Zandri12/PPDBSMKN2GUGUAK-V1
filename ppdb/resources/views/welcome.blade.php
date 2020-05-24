@@ -141,7 +141,7 @@ img {vertical-align: middle;}
                            
                         </div>
                         
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <div class="col-xl-3 col-lg-3">
                             <div class="log_chat_area d-flex align-items-center">
                                 <div class="live_chat_btn">
                                     <a class="boxed_btn_orange" href="/about">

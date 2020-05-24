@@ -111,7 +111,7 @@
                                     <td> 
                                     
                 
-                                        <a href="/admin/datasis/delete/{{$siswa['id']}}">
+                                        <a href="/admin/datasis/delete/{{$siswa['id']}}" class="button delete-confirm">
                                             <i class="icon-close2 text-danger-o text-danger"></i>
                                         </a>
                                    

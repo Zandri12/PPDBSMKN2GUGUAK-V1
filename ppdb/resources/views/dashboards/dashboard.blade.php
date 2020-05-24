@@ -23,6 +23,54 @@
             </div>
         </div>
     </header>
+    <div id="myModal" class="modal fade" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h5 class="modal-title"></h5>
+                </div>
+    
+                <div class="modal-body">
+                    <h6 class="text-semibold text-center">Apa Sih yang Baru? </h6>
+                    <div class="modal-body">
+                      
+                        <ul>
+                            <li><i>~ Cek kode pendaftaran dengan QR Code</li>
+                            <li><i>~ Ketika melakukan finalisasi, pastikan data tersebut telah diisi dengan benar </i></li>
+                            <li><i>~ Kode pendaftaran dapat dilihat dengan menggunakan kode QR</i></li>
+                            <li><i>~ Setelah Saudara dinyatakan <strong>Diterima</strong>cetak bukti tersebut dan bawa ketika melakukan daftar ulang</i></li>
+                            <li><i>~ Hasil pendaftaran dapat dilihat dilihat<strong> menu utama</strong> </i></li>
+                        </ul>
+                        <br>
+                        <hr>
+                        Persyaratan Umum <br><br><br>
+                        <ul>
+                            <ul>
+                                <li>(a). Fotocopy Nilai Rapor Terakhir atau Surat Keterangan Lulus (SKL) dari Kepala Sekolah 2 lembar</li>
+                                <li>(b). Pas Foto 3X4 3 Lembar</li>
+                                <li>(c). Foto copy KTP Berwarna dan Kartu Keluarga (KK)</li>
+                            </ul>
+                            
+                        </ul>
+            
+                    </div>
+    
+    
+    
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <script>
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+    </script>
     <div class="container-fluid relative animatedParent animateOnce">
         <div class="tab-content pb-3" id="v-pills-tabContent">
             <!--Today Tab Start-->

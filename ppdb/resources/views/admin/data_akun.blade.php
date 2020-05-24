@@ -25,14 +25,14 @@
                             </div>
                             <!-- /.box-header -->
                             <div class="box-body">
-                                <table id="example2" class="table table-bordered table-hover data-tables"
+                                <table width="100%" id="example2" class="table table-bordered table-hover data-tables"
                                data-options='{
                                     "scrollY": true,
                                     "scrollX": true
                                 }'>
                             <thead>
                             <tr>
-                                <th colspan="27" style="background-color:#85C1E9; color:white;">Data Akun PPDB SMKN 2 Kec.Guguak</th>
+                                <th colspan="27" style="background-color:#85C1E9; color:white;">Daftar Pengguna PPDB SMKN 2 Kec.Guguak</th>
                             </tr>
                             
                             <tr>
@@ -94,7 +94,7 @@
                                             <td> <a href="/Admin/{{$db['id']}}/edit">
                                                 <i class="icon-eye"></i>
                                                 </a> &nbsp;
-                                                <a href="/Admin/{{$db['id']}}/delete">
+                                                <a href="/Admin/{{$db['id']}}/delete" class="button delete-confirm">
                                                     <i class="icon-close2 text-danger-o text-danger"></i>
                                                 </a>
                                             </td>
